@@ -1,0 +1,32 @@
+.nav
+{
+  flex-direction: row;
+  background-color: blue;
+  list-style: none;
+}
+
+.filter
+{
+background-color:#eee;
+display:inline-flex;
+cursor: pointer;
+}
+    
+.filter_icon
+{
+  background-color:#aaa;
+  width:1.5rem;
+  height:1.5rem;
+  border-radius:100%;
+  color:#fff;
+  display: flex;          
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+    
+.filter__text 
+{
+  display: inline-block;
+  margin:.5rem;
+}
