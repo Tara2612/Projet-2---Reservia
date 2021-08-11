@@ -1,3 +1,68 @@
+.header {
+  display: grid;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  }
+  .header .logo {
+   padding: 0rem;
+   height: 0rem;
+  }
+  .header .text {
+  color: black;
+  
+  
+  }
+  .header .menu {
+  float:right;
+  }
+  
+  .menu ul {
+  float: right;
+  list-style-type: none;
+  }
+  
+  .menu li {
+  float: left;
+  margin: 0 8px;
+  
+  }
+  .image, .text, .menu {
+  display: inline-block;
+  vertical-align: bottom;
+  
+  }
+  
+  a{
+  text-decoration:none;
+  color:black;
+  }
+  
+  .hosting{
+  align-items: center;
+  grid-area: button;
+  color: #0065FC;
+  font-weight: 600;
+  padding:2rem;
+  }
+  
+  .activity{
+  padding: 2rem;
+  font-weight: 500;
+  text-align: center;
+  transition-duration: 0.1s;
+  border-top: 3px transparent solid;
+  border-bottom: 3px transparent solid;
+  }
+  
+  .register{
+  align-items: center;
+  grid-area: button;
+  color: #0065FC;
+  font-weight: 600;
+  padding:2rem;
+  }
+
 
 *{ box-sizing: border-box; }
 
@@ -50,8 +115,6 @@ grilles
   .column {
   flex: unset;
 }
-
-
 
 
 
@@ -128,6 +191,4 @@ footer.footer ul > li {
     list-style:none;
     margin: 0 0 .5em 0;    
     padding: 0;
-
 }
-
